@@ -21,6 +21,7 @@ Make sure you have Python installed.
 What did I just do?
 -------------------
 You 
+
 1. pulled down a feed of recent stories from The Guardian via its RSS feed
 2. stored each in a separate file
 3. produced a quick HTML page (g.html) to display them.
