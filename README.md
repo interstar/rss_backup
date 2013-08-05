@@ -47,6 +47,17 @@ someone else's silo. I, at least, want to have a copy of it on my local machine.
 other scripts to do something more useful with it.
 
 
+I Only Came Here Because You Said Something About Quora
+-------------------------------------------------------
+
+OK. There's a special script to make that easier.
+
+    python grab_quora.py YOUR-QUORA-USER-NAME
+    python list.py "A TITLE" > quora.html
+    firefox quora.html
+
+
+
 FAQ
 ---
 Q : Why do the files have such weird names?
