@@ -43,14 +43,14 @@ Why?
 
 I wrote this script to ensure that I could easily back-up the writing I'm doing on social media sites like 
 Quora and on my blogs hosted on Blogspot. I don't like the idea that most of my writing only exists in 
-someone else's silo. I, at least, want to have a copy of it on my local machine. In future I may write 
+someone else's silo. I at least want to have a copy of it on my local machine. In future I may write 
 other scripts to do something more useful with it.
 
 
 I Only Came Here Because You Said Something About Quora
 -------------------------------------------------------
 
-OK. There's a special script to make that easier.
+OK. There's a special script to make grabbing your Quora answers easier.
 
     python grab_quora.py YOUR-QUORA-USER-NAME
     python list.py "A TITLE" > quora.html
@@ -76,6 +76,9 @@ This gives other people the chance to write scripts to render those answers in d
 list.py program included here puts them into a single HTML page. But there'll be other options. Talk to me if you'd 
 like to request one.
 
+Q : Does Quora Grabber work with Quora questions too?
 
+A : Seems that the description of the question isn't in the feed, so you just get the question title and the body 
+is a link saying "see this on Quora. Less than useful for backing up your work.
 
 
